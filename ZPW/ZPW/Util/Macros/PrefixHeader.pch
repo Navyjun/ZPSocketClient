@@ -1,0 +1,28 @@
+//
+//  PrefixHeader.pch
+//  ZPW
+//
+//  Created by 张海军 on 2017/11/6.
+//  Copyright © 2017年 baoqianli. All rights reserved.
+//
+
+#ifdef __OBJC__
+
+// 打印
+#ifdef DEBUG
+
+#define MYLog(...) NSLog(__VA_ARGS__)
+
+#else
+
+#define MYLog(...)
+
+#endif
+
+
+#import "ZPPublicMethod.h"
+#import "NSString+path.h"
+#import "ZPCommentData.h"
+
+
+#endif 

@@ -1,0 +1,10 @@
+# Uncomment the next line to define a global platform for your project
+ platform :ios, ‘8.0’
+
+target 'ZPW' do
+pod 'AFNetworking'
+pod 'MJExtension'
+pod 'SDWebImage'
+pod 'SVProgressHUD'
+pod 'TZImagePickerController'
+end
