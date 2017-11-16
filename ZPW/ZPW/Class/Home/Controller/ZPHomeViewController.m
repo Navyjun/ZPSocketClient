@@ -23,7 +23,7 @@
 #import "TZGifPhotoPreviewController.h"
 #import "TZPhotoPreviewController.h"
 
-
+#import <VideoToolbox/VideoToolbox.h>
 
 @interface ZPHomeViewController ()
 <UINavigationControllerDelegate,
@@ -81,6 +81,7 @@ TZImagePickerControllerDelegate>
     self.needRefreshProgress = YES;
     
     NSLog(@"wifiInfo = %@",[HJWifiUtil getLocalInfoForCurrentWiFi]);
+    
 }
 
 - (void)viewWillAppear:(BOOL)animated{
@@ -135,8 +136,8 @@ TZImagePickerControllerDelegate>
 
 - (void)refreshWifiName{
     self.wifiNameLabel.text = [NSString stringWithFormat:@"当前连接wifi:%@",[HJWifiUtil fetchWiFiName]];
-    // && ![[SocketManager shareSocketManager] listSendIsFinish]
-    if (self.sendItemArray.count) {
+    //
+    if (self.sendItemArray.count && ![[SocketManager shareSocketManager] listSendIsFinish]) {
         [self.tableView reloadData];
     }
 }
@@ -197,6 +198,7 @@ TZImagePickerControllerDelegate>
     NSInteger totalCount = self.sendItemArray.count;
     if(finishItem.index == (totalCount -1)){
         self.currentSendItem.text = [NSString stringWithFormat:@"全部传完(%zd个)",self.sendItemArray.count];
+        [self.tableView reloadData];
     }else if (finishItem.index < totalCount){
         self.currentSendItem.text = [NSString stringWithFormat:@"文件%zd传完",(finishItem.index+1)];
         [self.tableView reloadData];

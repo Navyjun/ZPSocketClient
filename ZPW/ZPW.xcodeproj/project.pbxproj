@@ -232,16 +232,6 @@
 		EE2CA24D1FB2AAEC00427D8C /* ZXQRCodeWriter.m in Sources */ = {isa = PBXBuildFile; fileRef = EE2CA16D1FB2AAEB00427D8C /* ZXQRCodeWriter.m */; };
 		EE2CA24E1FB2AAEC00427D8C /* ZXMultiFormatReader.m in Sources */ = {isa = PBXBuildFile; fileRef = EE2CA1701FB2AAEB00427D8C /* ZXMultiFormatReader.m */; };
 		EE2CA24F1FB2AAEC00427D8C /* ZXMultiFormatWriter.m in Sources */ = {isa = PBXBuildFile; fileRef = EE2CA1721FB2AAEB00427D8C /* ZXMultiFormatWriter.m */; };
-		EE2CA2661FB2AB1D00427D8C /* LBXScanLineAnimation.m in Sources */ = {isa = PBXBuildFile; fileRef = EE2CA2521FB2AB1D00427D8C /* LBXScanLineAnimation.m */; };
-		EE2CA2671FB2AB1D00427D8C /* LBXScanNative.m in Sources */ = {isa = PBXBuildFile; fileRef = EE2CA2541FB2AB1D00427D8C /* LBXScanNative.m */; };
-		EE2CA2681FB2AB1D00427D8C /* LBXScanNetAnimation.m in Sources */ = {isa = PBXBuildFile; fileRef = EE2CA2561FB2AB1D00427D8C /* LBXScanNetAnimation.m */; };
-		EE2CA2691FB2AB1D00427D8C /* LBXScanResult.m in Sources */ = {isa = PBXBuildFile; fileRef = EE2CA2581FB2AB1D00427D8C /* LBXScanResult.m */; };
-		EE2CA26A1FB2AB1D00427D8C /* LBXScanView.m in Sources */ = {isa = PBXBuildFile; fileRef = EE2CA25A1FB2AB1D00427D8C /* LBXScanView.m */; };
-		EE2CA26B1FB2AB1D00427D8C /* LBXScanViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = EE2CA25C1FB2AB1D00427D8C /* LBXScanViewController.m */; };
-		EE2CA26C1FB2AB1D00427D8C /* LBXScanViewStyle.m in Sources */ = {isa = PBXBuildFile; fileRef = EE2CA25E1FB2AB1D00427D8C /* LBXScanViewStyle.m */; };
-		EE2CA26D1FB2AB1D00427D8C /* LBXScanWrapper.m in Sources */ = {isa = PBXBuildFile; fileRef = EE2CA2601FB2AB1D00427D8C /* LBXScanWrapper.m */; };
-		EE2CA26E1FB2AB1D00427D8C /* LBXZXCapture.m in Sources */ = {isa = PBXBuildFile; fileRef = EE2CA2621FB2AB1D00427D8C /* LBXZXCapture.m */; };
-		EE2CA26F1FB2AB1D00427D8C /* ZXingWrapper.m in Sources */ = {isa = PBXBuildFile; fileRef = EE2CA2651FB2AB1D00427D8C /* ZXingWrapper.m */; };
 		EE2CA2721FB2AB6200427D8C /* ZPQRCodeVC.m in Sources */ = {isa = PBXBuildFile; fileRef = EE2CA2711FB2AB6200427D8C /* ZPQRCodeVC.m */; };
 		EE2CA2751FB2B0DD00427D8C /* ZPCommentData.m in Sources */ = {isa = PBXBuildFile; fileRef = EE2CA2741FB2B0DD00427D8C /* ZPCommentData.m */; };
 		EE3005E81FAFF00F002ABEC3 /* ZPPublicMethod.m in Sources */ = {isa = PBXBuildFile; fileRef = EE3005E71FAFF00F002ABEC3 /* ZPPublicMethod.m */; };
@@ -259,6 +249,16 @@
 		EE4B28A01FAAB6CF00FD5222 /* ZPHomeViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = EE4B289F1FAAB6CF00FD5222 /* ZPHomeViewController.xib */; };
 		EE4B28A41FAAB9D000FD5222 /* ZPHomeCell.m in Sources */ = {isa = PBXBuildFile; fileRef = EE4B28A21FAAB9D000FD5222 /* ZPHomeCell.m */; };
 		EE4B28A51FAAB9D000FD5222 /* ZPHomeCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = EE4B28A31FAAB9D000FD5222 /* ZPHomeCell.xib */; };
+		EE8684011FBD2AD90010B0C7 /* LBXScanLineAnimation.m in Sources */ = {isa = PBXBuildFile; fileRef = EE8683ED1FBD2AD90010B0C7 /* LBXScanLineAnimation.m */; };
+		EE8684021FBD2AD90010B0C7 /* LBXScanNative.m in Sources */ = {isa = PBXBuildFile; fileRef = EE8683EF1FBD2AD90010B0C7 /* LBXScanNative.m */; };
+		EE8684031FBD2AD90010B0C7 /* LBXScanNetAnimation.m in Sources */ = {isa = PBXBuildFile; fileRef = EE8683F11FBD2AD90010B0C7 /* LBXScanNetAnimation.m */; };
+		EE8684041FBD2AD90010B0C7 /* LBXScanResult.m in Sources */ = {isa = PBXBuildFile; fileRef = EE8683F31FBD2AD90010B0C7 /* LBXScanResult.m */; };
+		EE8684051FBD2AD90010B0C7 /* LBXScanView.m in Sources */ = {isa = PBXBuildFile; fileRef = EE8683F51FBD2AD90010B0C7 /* LBXScanView.m */; };
+		EE8684061FBD2AD90010B0C7 /* LBXScanViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = EE8683F71FBD2AD90010B0C7 /* LBXScanViewController.m */; };
+		EE8684071FBD2AD90010B0C7 /* LBXScanViewStyle.m in Sources */ = {isa = PBXBuildFile; fileRef = EE8683F91FBD2AD90010B0C7 /* LBXScanViewStyle.m */; };
+		EE8684081FBD2AD90010B0C7 /* LBXScanWrapper.m in Sources */ = {isa = PBXBuildFile; fileRef = EE8683FB1FBD2AD90010B0C7 /* LBXScanWrapper.m */; };
+		EE8684091FBD2AD90010B0C7 /* LBXZXCapture.m in Sources */ = {isa = PBXBuildFile; fileRef = EE8683FD1FBD2AD90010B0C7 /* LBXZXCapture.m */; };
+		EE86840A1FBD2AD90010B0C7 /* ZXingWrapper.m in Sources */ = {isa = PBXBuildFile; fileRef = EE8684001FBD2AD90010B0C7 /* ZXingWrapper.m */; };
 		EE9926891FA997E40008D5AA /* ZPBaseViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = EE9926881FA997E40008D5AA /* ZPBaseViewController.m */; };
 		EE99268C1FA997FB0008D5AA /* ZPNavigationController.m in Sources */ = {isa = PBXBuildFile; fileRef = EE99268B1FA997FB0008D5AA /* ZPNavigationController.m */; };
 		EE9926901FA9987D0008D5AA /* ZPHomeViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = EE99268F1FA9987D0008D5AA /* ZPHomeViewController.m */; };
@@ -735,27 +735,6 @@
 		EE2CA1701FB2AAEB00427D8C /* ZXMultiFormatReader.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ZXMultiFormatReader.m; sourceTree = "<group>"; };
 		EE2CA1711FB2AAEB00427D8C /* ZXMultiFormatWriter.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ZXMultiFormatWriter.h; sourceTree = "<group>"; };
 		EE2CA1721FB2AAEB00427D8C /* ZXMultiFormatWriter.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ZXMultiFormatWriter.m; sourceTree = "<group>"; };
-		EE2CA2511FB2AB1D00427D8C /* LBXScanLineAnimation.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LBXScanLineAnimation.h; sourceTree = "<group>"; };
-		EE2CA2521FB2AB1D00427D8C /* LBXScanLineAnimation.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LBXScanLineAnimation.m; sourceTree = "<group>"; };
-		EE2CA2531FB2AB1D00427D8C /* LBXScanNative.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LBXScanNative.h; sourceTree = "<group>"; };
-		EE2CA2541FB2AB1D00427D8C /* LBXScanNative.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LBXScanNative.m; sourceTree = "<group>"; };
-		EE2CA2551FB2AB1D00427D8C /* LBXScanNetAnimation.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LBXScanNetAnimation.h; sourceTree = "<group>"; };
-		EE2CA2561FB2AB1D00427D8C /* LBXScanNetAnimation.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LBXScanNetAnimation.m; sourceTree = "<group>"; };
-		EE2CA2571FB2AB1D00427D8C /* LBXScanResult.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LBXScanResult.h; sourceTree = "<group>"; };
-		EE2CA2581FB2AB1D00427D8C /* LBXScanResult.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LBXScanResult.m; sourceTree = "<group>"; };
-		EE2CA2591FB2AB1D00427D8C /* LBXScanView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LBXScanView.h; sourceTree = "<group>"; };
-		EE2CA25A1FB2AB1D00427D8C /* LBXScanView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LBXScanView.m; sourceTree = "<group>"; };
-		EE2CA25B1FB2AB1D00427D8C /* LBXScanViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LBXScanViewController.h; sourceTree = "<group>"; };
-		EE2CA25C1FB2AB1D00427D8C /* LBXScanViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LBXScanViewController.m; sourceTree = "<group>"; };
-		EE2CA25D1FB2AB1D00427D8C /* LBXScanViewStyle.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LBXScanViewStyle.h; sourceTree = "<group>"; };
-		EE2CA25E1FB2AB1D00427D8C /* LBXScanViewStyle.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LBXScanViewStyle.m; sourceTree = "<group>"; };
-		EE2CA25F1FB2AB1D00427D8C /* LBXScanWrapper.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LBXScanWrapper.h; sourceTree = "<group>"; };
-		EE2CA2601FB2AB1D00427D8C /* LBXScanWrapper.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LBXScanWrapper.m; sourceTree = "<group>"; };
-		EE2CA2611FB2AB1D00427D8C /* LBXZXCapture.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LBXZXCapture.h; sourceTree = "<group>"; };
-		EE2CA2621FB2AB1D00427D8C /* LBXZXCapture.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LBXZXCapture.m; sourceTree = "<group>"; };
-		EE2CA2631FB2AB1D00427D8C /* LBXZXCaptureDelegate.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LBXZXCaptureDelegate.h; sourceTree = "<group>"; };
-		EE2CA2641FB2AB1D00427D8C /* ZXingWrapper.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ZXingWrapper.h; sourceTree = "<group>"; };
-		EE2CA2651FB2AB1D00427D8C /* ZXingWrapper.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ZXingWrapper.m; sourceTree = "<group>"; };
 		EE2CA2701FB2AB6200427D8C /* ZPQRCodeVC.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ZPQRCodeVC.h; sourceTree = "<group>"; };
 		EE2CA2711FB2AB6200427D8C /* ZPQRCodeVC.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ZPQRCodeVC.m; sourceTree = "<group>"; };
 		EE2CA2731FB2B0DD00427D8C /* ZPCommentData.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ZPCommentData.h; sourceTree = "<group>"; };
@@ -788,6 +767,27 @@
 		EE4B28A11FAAB9D000FD5222 /* ZPHomeCell.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ZPHomeCell.h; sourceTree = "<group>"; };
 		EE4B28A21FAAB9D000FD5222 /* ZPHomeCell.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ZPHomeCell.m; sourceTree = "<group>"; };
 		EE4B28A31FAAB9D000FD5222 /* ZPHomeCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = ZPHomeCell.xib; sourceTree = "<group>"; };
+		EE8683EC1FBD2AD90010B0C7 /* LBXScanLineAnimation.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LBXScanLineAnimation.h; sourceTree = "<group>"; };
+		EE8683ED1FBD2AD90010B0C7 /* LBXScanLineAnimation.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LBXScanLineAnimation.m; sourceTree = "<group>"; };
+		EE8683EE1FBD2AD90010B0C7 /* LBXScanNative.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LBXScanNative.h; sourceTree = "<group>"; };
+		EE8683EF1FBD2AD90010B0C7 /* LBXScanNative.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LBXScanNative.m; sourceTree = "<group>"; };
+		EE8683F01FBD2AD90010B0C7 /* LBXScanNetAnimation.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LBXScanNetAnimation.h; sourceTree = "<group>"; };
+		EE8683F11FBD2AD90010B0C7 /* LBXScanNetAnimation.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LBXScanNetAnimation.m; sourceTree = "<group>"; };
+		EE8683F21FBD2AD90010B0C7 /* LBXScanResult.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LBXScanResult.h; sourceTree = "<group>"; };
+		EE8683F31FBD2AD90010B0C7 /* LBXScanResult.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LBXScanResult.m; sourceTree = "<group>"; };
+		EE8683F41FBD2AD90010B0C7 /* LBXScanView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LBXScanView.h; sourceTree = "<group>"; };
+		EE8683F51FBD2AD90010B0C7 /* LBXScanView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LBXScanView.m; sourceTree = "<group>"; };
+		EE8683F61FBD2AD90010B0C7 /* LBXScanViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LBXScanViewController.h; sourceTree = "<group>"; };
+		EE8683F71FBD2AD90010B0C7 /* LBXScanViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LBXScanViewController.m; sourceTree = "<group>"; };
+		EE8683F81FBD2AD90010B0C7 /* LBXScanViewStyle.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LBXScanViewStyle.h; sourceTree = "<group>"; };
+		EE8683F91FBD2AD90010B0C7 /* LBXScanViewStyle.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LBXScanViewStyle.m; sourceTree = "<group>"; };
+		EE8683FA1FBD2AD90010B0C7 /* LBXScanWrapper.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LBXScanWrapper.h; sourceTree = "<group>"; };
+		EE8683FB1FBD2AD90010B0C7 /* LBXScanWrapper.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LBXScanWrapper.m; sourceTree = "<group>"; };
+		EE8683FC1FBD2AD90010B0C7 /* LBXZXCapture.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LBXZXCapture.h; sourceTree = "<group>"; };
+		EE8683FD1FBD2AD90010B0C7 /* LBXZXCapture.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LBXZXCapture.m; sourceTree = "<group>"; };
+		EE8683FE1FBD2AD90010B0C7 /* LBXZXCaptureDelegate.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LBXZXCaptureDelegate.h; sourceTree = "<group>"; };
+		EE8683FF1FBD2AD90010B0C7 /* ZXingWrapper.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ZXingWrapper.h; sourceTree = "<group>"; };
+		EE8684001FBD2AD90010B0C7 /* ZXingWrapper.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ZXingWrapper.m; sourceTree = "<group>"; };
 		EE9926871FA997E40008D5AA /* ZPBaseViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ZPBaseViewController.h; sourceTree = "<group>"; };
 		EE9926881FA997E40008D5AA /* ZPBaseViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ZPBaseViewController.m; sourceTree = "<group>"; };
 		EE99268A1FA997FB0008D5AA /* ZPNavigationController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ZPNavigationController.h; sourceTree = "<group>"; };
@@ -881,7 +881,7 @@
 		EE2C9F661FB2AA3200427D8C /* thirdLib */ = {
 			isa = PBXGroup;
 			children = (
-				EE2CA2501FB2AB1D00427D8C /* LBXScan */,
+				EE8683EB1FBD2AD90010B0C7 /* LBXScan */,
 				EE2C9F871FB2AAEB00427D8C /* ZXingObjC */,
 			);
 			path = thirdLib;
@@ -1609,35 +1609,6 @@
 			path = detector;
 			sourceTree = "<group>";
 		};
-		EE2CA2501FB2AB1D00427D8C /* LBXScan */ = {
-			isa = PBXGroup;
-			children = (
-				EE2CA2511FB2AB1D00427D8C /* LBXScanLineAnimation.h */,
-				EE2CA2521FB2AB1D00427D8C /* LBXScanLineAnimation.m */,
-				EE2CA2531FB2AB1D00427D8C /* LBXScanNative.h */,
-				EE2CA2541FB2AB1D00427D8C /* LBXScanNative.m */,
-				EE2CA2551FB2AB1D00427D8C /* LBXScanNetAnimation.h */,
-				EE2CA2561FB2AB1D00427D8C /* LBXScanNetAnimation.m */,
-				EE2CA2571FB2AB1D00427D8C /* LBXScanResult.h */,
-				EE2CA2581FB2AB1D00427D8C /* LBXScanResult.m */,
-				EE2CA2591FB2AB1D00427D8C /* LBXScanView.h */,
-				EE2CA25A1FB2AB1D00427D8C /* LBXScanView.m */,
-				EE2CA25B1FB2AB1D00427D8C /* LBXScanViewController.h */,
-				EE2CA25C1FB2AB1D00427D8C /* LBXScanViewController.m */,
-				EE2CA25D1FB2AB1D00427D8C /* LBXScanViewStyle.h */,
-				EE2CA25E1FB2AB1D00427D8C /* LBXScanViewStyle.m */,
-				EE2CA25F1FB2AB1D00427D8C /* LBXScanWrapper.h */,
-				EE2CA2601FB2AB1D00427D8C /* LBXScanWrapper.m */,
-				EE2CA2611FB2AB1D00427D8C /* LBXZXCapture.h */,
-				EE2CA2621FB2AB1D00427D8C /* LBXZXCapture.m */,
-				EE2CA2631FB2AB1D00427D8C /* LBXZXCaptureDelegate.h */,
-				EE2CA2641FB2AB1D00427D8C /* ZXingWrapper.h */,
-				EE2CA2651FB2AB1D00427D8C /* ZXingWrapper.m */,
-			);
-			name = LBXScan;
-			path = "../../../../../../机器人酒店管理/HotelRobot/HotelRobot_QLY/trunk/RobotHotelNew/Pods/LBXScan/LBXScan";
-			sourceTree = "<group>";
-		};
 		EE3005E51FAFEF8C002ABEC3 /* Comment */ = {
 			isa = PBXGroup;
 			children = (
@@ -1759,6 +1730,34 @@
 				EE300E441FA1E7EA00A58820 /* HJWifiUtil.m */,
 			);
 			path = wifi;
+			sourceTree = "<group>";
+		};
+		EE8683EB1FBD2AD90010B0C7 /* LBXScan */ = {
+			isa = PBXGroup;
+			children = (
+				EE8683EC1FBD2AD90010B0C7 /* LBXScanLineAnimation.h */,
+				EE8683ED1FBD2AD90010B0C7 /* LBXScanLineAnimation.m */,
+				EE8683EE1FBD2AD90010B0C7 /* LBXScanNative.h */,
+				EE8683EF1FBD2AD90010B0C7 /* LBXScanNative.m */,
+				EE8683F01FBD2AD90010B0C7 /* LBXScanNetAnimation.h */,
+				EE8683F11FBD2AD90010B0C7 /* LBXScanNetAnimation.m */,
+				EE8683F21FBD2AD90010B0C7 /* LBXScanResult.h */,
+				EE8683F31FBD2AD90010B0C7 /* LBXScanResult.m */,
+				EE8683F41FBD2AD90010B0C7 /* LBXScanView.h */,
+				EE8683F51FBD2AD90010B0C7 /* LBXScanView.m */,
+				EE8683F61FBD2AD90010B0C7 /* LBXScanViewController.h */,
+				EE8683F71FBD2AD90010B0C7 /* LBXScanViewController.m */,
+				EE8683F81FBD2AD90010B0C7 /* LBXScanViewStyle.h */,
+				EE8683F91FBD2AD90010B0C7 /* LBXScanViewStyle.m */,
+				EE8683FA1FBD2AD90010B0C7 /* LBXScanWrapper.h */,
+				EE8683FB1FBD2AD90010B0C7 /* LBXScanWrapper.m */,
+				EE8683FC1FBD2AD90010B0C7 /* LBXZXCapture.h */,
+				EE8683FD1FBD2AD90010B0C7 /* LBXZXCapture.m */,
+				EE8683FE1FBD2AD90010B0C7 /* LBXZXCaptureDelegate.h */,
+				EE8683FF1FBD2AD90010B0C7 /* ZXingWrapper.h */,
+				EE8684001FBD2AD90010B0C7 /* ZXingWrapper.m */,
+			);
+			path = LBXScan;
 			sourceTree = "<group>";
 		};
 		EE9926831FA997AF0008D5AA /* Base */ = {
@@ -1942,6 +1941,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				EE2CA1E71FB2AAEC00427D8C /* ZXAI01393xDecoder.m in Sources */,
+				EE8684081FBD2AD90010B0C7 /* LBXScanWrapper.m in Sources */,
 				EE2CA24E1FB2AAEC00427D8C /* ZXMultiFormatReader.m in Sources */,
 				EE2CA2281FB2AAEC00427D8C /* ZXPDF417Detector.m in Sources */,
 				EE2CA1ED1FB2AAEC00427D8C /* ZXAnyAIDecoder.m in Sources */,
@@ -1957,7 +1957,6 @@
 				EE2CA1991FB2AAEC00427D8C /* ZXTextParsedResult.m in Sources */,
 				EE2CA2291FB2AAEC00427D8C /* ZXPDF417DetectorResult.m in Sources */,
 				EE2CA2421FB2AAEC00427D8C /* ZXQRCodeFinderPatternFinder.m in Sources */,
-				EE2CA26B1FB2AB1D00427D8C /* LBXScanViewController.m in Sources */,
 				EE2CA1EC1FB2AAEC00427D8C /* ZXAI01weightDecoder.m in Sources */,
 				EE2CA22E1FB2AAEC00427D8C /* ZXPDF417ErrorCorrection.m in Sources */,
 				EE2CA22A1FB2AAEC00427D8C /* ZXPDF417.m in Sources */,
@@ -1969,13 +1968,12 @@
 				EE2CA1EA1FB2AAEC00427D8C /* ZXAI01AndOtherAIs.m in Sources */,
 				EE2CA1C21FB2AAEC00427D8C /* ZXErrors.m in Sources */,
 				EE2CA23B1FB2AAEC00427D8C /* ZXQRCodeFormatInformation.m in Sources */,
+				EE8684061FBD2AD90010B0C7 /* LBXScanViewController.m in Sources */,
 				EE2CA1801FB2AAEC00427D8C /* ZXAddressBookAUResultParser.m in Sources */,
-				EE2CA26D1FB2AB1D00427D8C /* LBXScanWrapper.m in Sources */,
 				EE2CA1E01FB2AAEC00427D8C /* ZXMaxiCodeReader.m in Sources */,
 				EE2CA2001FB2AAEC00427D8C /* ZXCodaBarReader.m in Sources */,
 				EE2CA2091FB2AAEC00427D8C /* ZXEAN8Reader.m in Sources */,
 				EE2CA2481FB2AAEC00427D8C /* ZXQRCodeMatrixUtil.m in Sources */,
-				EE2CA2691FB2AB1D00427D8C /* LBXScanResult.m in Sources */,
 				EE2CA1DF1FB2AAEC00427D8C /* ZXMaxiCodeDecoder.m in Sources */,
 				EE2CA2101FB2AAEC00427D8C /* ZXOneDimensionalCodeWriter.m in Sources */,
 				EE2CA1811FB2AAEC00427D8C /* ZXAddressBookDoCoMoResultParser.m in Sources */,
@@ -1986,7 +1984,6 @@
 				EE2CA1B71FB2AAEC00427D8C /* ZXGridSampler.m in Sources */,
 				EE2CA1C71FB2AAEC00427D8C /* ZXResultPoint.m in Sources */,
 				EE2CA2171FB2AAEC00427D8C /* ZXUPCEANReader.m in Sources */,
-				EE2CA2681FB2AB1D00427D8C /* LBXScanNetAnimation.m in Sources */,
 				EE2CA1DB1FB2AAEC00427D8C /* ZXDataMatrixReader.m in Sources */,
 				EE2CA1941FB2AAEC00427D8C /* ZXSMSParsedResult.m in Sources */,
 				EE2CA21F1FB2AAEC00427D8C /* ZXPDF417BarcodeValue.m in Sources */,
@@ -2010,6 +2007,7 @@
 				EE2CA20D1FB2AAEC00427D8C /* ZXITFWriter.m in Sources */,
 				EE2CA2071FB2AAEC00427D8C /* ZXEAN13Reader.m in Sources */,
 				EE2CA1741FB2AAEB00427D8C /* ZXAztecDetector.m in Sources */,
+				EE8684071FBD2AD90010B0C7 /* LBXScanViewStyle.m in Sources */,
 				EE2CA24B1FB2AAEC00427D8C /* ZXQRCodeMultiReader.m in Sources */,
 				EE2CA1E41FB2AAEC00427D8C /* ZXAI013103decoder.m in Sources */,
 				EE2CA1BE1FB2AAEC00427D8C /* ZXByteMatrix.m in Sources */,
@@ -2020,6 +2018,7 @@
 				EE2CA1901FB2AAEC00427D8C /* ZXProductParsedResult.m in Sources */,
 				EE2CA1D51FB2AAEC00427D8C /* ZXDataMatrixErrorCorrection.m in Sources */,
 				EE2CA1A11FB2AAEC00427D8C /* ZXWifiParsedResult.m in Sources */,
+				EE8684041FBD2AD90010B0C7 /* LBXScanResult.m in Sources */,
 				EE2CA20C1FB2AAEC00427D8C /* ZXITFReader.m in Sources */,
 				EE242CB81FA84B39002BAA11 /* SocketManager.m in Sources */,
 				EE2CA23A1FB2AAEC00427D8C /* ZXQRCodeErrorCorrectionLevel.m in Sources */,
@@ -2056,13 +2055,13 @@
 				EE2CA2441FB2AAEC00427D8C /* ZXQRCode.m in Sources */,
 				EE2CA1F61FB2AAEC00427D8C /* ZXBitArrayBuilder.m in Sources */,
 				EE2CA22B1FB2AAEC00427D8C /* ZXPDF417BarcodeMatrix.m in Sources */,
-				EE2CA2661FB2AB1D00427D8C /* LBXScanLineAnimation.m in Sources */,
 				EE2CA1A91FB2AAEC00427D8C /* ZXGenericGF.m in Sources */,
-				EE2CA26E1FB2AB1D00427D8C /* LBXZXCapture.m in Sources */,
 				EE2CA1DD1FB2AAEC00427D8C /* ZXMaxiCodeBitMatrixParser.m in Sources */,
+				EE8684091FBD2AD90010B0C7 /* LBXZXCapture.m in Sources */,
 				EE2CA1F81FB2AAEC00427D8C /* ZXRSSExpandedReader.m in Sources */,
 				EE2CA1971FB2AAEC00427D8C /* ZXTelParsedResult.m in Sources */,
 				EE2CA17D1FB2AAEC00427D8C /* ZXAztecReader.m in Sources */,
+				EE8684011FBD2AD90010B0C7 /* LBXScanLineAnimation.m in Sources */,
 				EE3005E81FAFF00F002ABEC3 /* ZPPublicMethod.m in Sources */,
 				EE2CA1D41FB2AAEC00427D8C /* ZXDataMatrixEncoderContext.m in Sources */,
 				EE2CA1FF1FB2AAEC00427D8C /* ZXRSSUtils.m in Sources */,
@@ -2103,12 +2102,10 @@
 				EE2CA19C1FB2AAEC00427D8C /* ZXURLTOResultParser.m in Sources */,
 				EE2CA1771FB2AAEB00427D8C /* ZXAztecEncoder.m in Sources */,
 				EE2CA2221FB2AAEC00427D8C /* ZXPDF417CodewordDecoder.m in Sources */,
-				EE2CA26F1FB2AB1D00427D8C /* ZXingWrapper.m in Sources */,
 				EE242CB41FA70D46002BAA11 /* TcpViewController.m in Sources */,
 				EE2CA2161FB2AAEC00427D8C /* ZXUPCEANExtensionSupport.m in Sources */,
 				EE2CA1CB1FB2AAEC00427D8C /* ZXDataMatrixDecodedBitStreamParser.m in Sources */,
 				EE2CA2061FB2AAEC00427D8C /* ZXCode93Reader.m in Sources */,
-				EE2CA26C1FB2AB1D00427D8C /* LBXScanViewStyle.m in Sources */,
 				EE2CA1FA1FB2AAEC00427D8C /* ZXAbstractRSSReader.m in Sources */,
 				EE2CA1CC1FB2AAEC00427D8C /* ZXDataMatrixDecoder.m in Sources */,
 				EE2CA2031FB2AAEC00427D8C /* ZXCode128Writer.m in Sources */,
@@ -2128,6 +2125,7 @@
 				EE2CA1C91FB2AAEC00427D8C /* ZXDataMatrixBitMatrixParser.m in Sources */,
 				EE2CA1FE1FB2AAEC00427D8C /* ZXRSSPair.m in Sources */,
 				EE2CA2351FB2AAEC00427D8C /* ZXQRCodeDataBlock.m in Sources */,
+				EE8684031FBD2AD90010B0C7 /* LBXScanNetAnimation.m in Sources */,
 				EE2CA1BD1FB2AAEC00427D8C /* ZXBinaryBitmap.m in Sources */,
 				EE2CA19F1FB2AAEC00427D8C /* ZXVINParsedResult.m in Sources */,
 				EE2CA1D81FB2AAEC00427D8C /* ZXDataMatrixSymbolInfo144.m in Sources */,
@@ -2144,6 +2142,7 @@
 				EE2CA17B1FB2AAEC00427D8C /* ZXAztecToken.m in Sources */,
 				EE2CA1CA1FB2AAEC00427D8C /* ZXDataMatrixDataBlock.m in Sources */,
 				EE2CA1C51FB2AAEC00427D8C /* ZXPlanarYUVLuminanceSource.m in Sources */,
+				EE8684051FBD2AD90010B0C7 /* LBXScanView.m in Sources */,
 				EE2CA2121FB2AAEC00427D8C /* ZXUPCAReader.m in Sources */,
 				EE2CA2431FB2AAEC00427D8C /* ZXQRCodeFinderPatternInfo.m in Sources */,
 				EE300E2B1FA1E13600A58820 /* AppDelegate.m in Sources */,
@@ -2167,6 +2166,8 @@
 				EE2CA1A41FB2AAEC00427D8C /* ZXCGImageLuminanceSource.m in Sources */,
 				EE242CC21FA9767E002BAA11 /* SockerSendItem.m in Sources */,
 				EE2CA2201FB2AAEC00427D8C /* ZXPDF417BoundingBox.m in Sources */,
+				EE86840A1FBD2AD90010B0C7 /* ZXingWrapper.m in Sources */,
+				EE8684021FBD2AD90010B0C7 /* LBXScanNative.m in Sources */,
 				EE2CA2261FB2AAEC00427D8C /* ZXPDF417DetectionResultRowIndicatorColumn.m in Sources */,
 				EE2CA23C1FB2AAEC00427D8C /* ZXQRCodeMode.m in Sources */,
 				EE2CA1E21FB2AAEC00427D8C /* ZXGenericMultipleBarcodeReader.m in Sources */,
@@ -2179,14 +2180,12 @@
 				EE2CA24D1FB2AAEC00427D8C /* ZXQRCodeWriter.m in Sources */,
 				EE2CA18A1FB2AAEC00427D8C /* ZXExpandedProductResultParser.m in Sources */,
 				EE2CA1831FB2AAEC00427D8C /* ZXBizcardResultParser.m in Sources */,
-				EE2CA26A1FB2AB1D00427D8C /* LBXScanView.m in Sources */,
 				EE2CA23E1FB2AAEC00427D8C /* ZXQRCodeAlignmentPattern.m in Sources */,
 				EE2CA1D31FB2AAEC00427D8C /* ZXDataMatrixEdifactEncoder.m in Sources */,
 				EE2CA1861FB2AAEC00427D8C /* ZXEmailAddressParsedResult.m in Sources */,
 				EE2CA2191FB2AAEC00427D8C /* ZXUPCEReader.m in Sources */,
 				EE2CA1841FB2AAEC00427D8C /* ZXBookmarkDoCoMoResultParser.m in Sources */,
 				EE2CA1C81FB2AAEC00427D8C /* ZXRGBLuminanceSource.m in Sources */,
-				EE2CA2671FB2AB1D00427D8C /* LBXScanNative.m in Sources */,
 				EE2CA1BB1FB2AAEC00427D8C /* ZXStringUtils.m in Sources */,
 				EE2CA21C1FB2AAEC00427D8C /* ZXModulusPoly.m in Sources */,
 				EE2CA1A01FB2AAEC00427D8C /* ZXVINResultParser.m in Sources */,
